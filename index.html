@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoSocial - Your Growth, On Autopilot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="images/AutoSocial-logo.png" alt="AutoSocial Logo" width="200" />
+    </div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#contact-section">Contact</a>
+      <a href="https://wa.me/0794249464" class="cta-button">WhatsApp Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1>Your Growth, On Autopilot</h1>
+      <p>Automate social media marketing and grow faster with less effort.</p>
+    </section>
+
+    <section id="services" class="grid-container"></section>
+
+    <section id="contact-section">
+      <h2>Let’s Grow Together!</h2>
+      <p>Reach out today for quick replies and real results.</p>
+
+      <form id="contact-form" class="autosocial-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email Address" required />
+        <select name="service_interest">
+          <option value="Automated Posting">Automated Posting</option>
+          <option value="Audience Growth">Audience Growth</option>
+          <option value="Analytics">Detailed Analytics</option>
+          <option value="General">General Inquiry</option>
+        </select>
+        <textarea name="message" placeholder="How can we help your business dominate?" required></textarea>
+
+        <button type="submit" class="cta-gold">Send Message</button>
+      </form>
+      <p id="form-status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
