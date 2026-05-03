@@ -1,0 +1,9 @@
+/* CSS to match the logo aesthetic */
+.cta-button {
+    background: linear-gradient(145deg, #d1d1d1, #f0f0f0); /* Metallic Silver */
+    color: #333;
+    border: 1px solid #ffcc00; /* Growth Gold accent */
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
